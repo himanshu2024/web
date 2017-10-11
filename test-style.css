@@ -1,0 +1,170 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(open-sans/OpenSans-Regular.ttf);
+}
+body {
+    font-family: myFirstFont;
+    letter-spacing: 1px;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+  }
+
+  .top {
+    background-color: #545454;
+    height: 50px;
+    width: 100%;
+    color: white;
+    display: flex;      
+  }
+
+  .header-round-image{
+    border-radius: 50%; 
+    border: 3px solid #5BFF63; 
+    margin-top: 2px;  
+    border-bottom-color: gray; 
+    border-right-color: gray;
+  }
+  p,
+  pre {
+    color: white;
+    font-size: 10px
+  }
+
+  .header {
+    background-color: #4DBBBA;
+    height: 60px;
+    padding: 5px 15% 5px 15%;
+  }
+
+  .middle {
+    background-color: rgb(255, 255, 255);
+    height: auto;
+  }
+
+  .item {
+    height: 45px;
+    padding-top: 15px;
+    margin: 0px 15% 0px 15%;
+  }
+  .item-detail{
+    width: 100%;
+    
+  }
+
+  .item-detail-line{
+    width: 100%;
+    border-bottom: 1px solid #4DBBBA;
+    
+  }
+
+  .span-item-text {
+    color: rgb(153, 153, 153);
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;    
+  }
+
+  .bottom {
+    background-color: #545454;
+  }
+
+  .round {
+    position: absolute;
+    background-color: red;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    font-size: 10px;
+    line-height: 15px;
+    padding: 0px;
+    text-align: center;
+    right: 37px;
+    bottom: 7px;
+  }
+
+  .round-cam {
+    position: absolute;
+    background-color: white;
+    border: 3px solid #4DBBBA;    
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    font-size: 10px;
+    line-height: 40px;
+    padding: 0px;
+    text-align: center;
+    right: 23px;
+    bottom: 100px;
+  }
+
+  .form-div{
+    border-bottom: 2px solid rgb(240, 246, 246); 
+    padding: 5px 0px 10px 0px; 
+    display: flex; 
+    position: relative;
+    margin-bottom: 20px;
+  }
+
+  .bottom-black-text{
+      color: rgb(212, 212, 212);
+      font-size: 11px;
+    
+  }
+  .bottom-white-text{
+    color: rgb(255, 255, 255);
+    font-size: 11px;
+    font-weight: bold;
+}
+.heading-text{
+  color: #4DBBBA;
+  font-size: 12px;
+}
+.heading-value-text{
+  color: rgb(120, 120, 120); 
+  font-size: 20px;
+}
+
+.app_link_icon{
+  height: 30px; 
+  width: 30px; 
+  margin: 4px;
+}
+
+.dropdown{
+  border-bottom: 1px solid rgb(240, 246, 246);
+  padding: 5px 0px 10px 0px;
+  display: inline-block;
+  position: relative;
+  width: 110%;
+}
+
+input.myinput {
+  margin-bottom: 6px; border: none; font-size: 20px; 
+  width: 50%;
+}
+/*
+textarea:focus, input:focus{
+  outline: none;
+}
+
+input::placeholder{
+  color: #999999;
+}
+*/
+.grad {
+  height: 80px;
+  background: white; /* For browsers that do not support gradients */    
+  background: linear-gradient(to bottom, white , #F4F4F4); /* Standard syntax (must be last) */
+}
+
+.shadow{
+  box-shadow: 0 0 20px #ECECEC; width: 400px; height: 250px; position: relative;
+}
+.shadowLast{
+  margin-bottom: 20px; height: 34px; position: absolute;
+  top: 87%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
